@@ -1,0 +1,35 @@
+.App {
+  background-color: red;
+  color: white;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 16px 64px;
+}
+
+.Title {
+  font-size: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid white;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Upload-form {
+  padding-top: 64px;
+  font-size: 32px;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  color: #61dafb;
+}
